@@ -12,3 +12,7 @@ function hslColor(h, s, l) {
 
   return color;
 }
+hslColor(20, 50, 50)
+var color = hslColor(20, 50, 50)
+hslColor (bordr70, -0, 70)
+"hsl(70, 70%, 365)"
