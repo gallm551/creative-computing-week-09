@@ -16,3 +16,11 @@ hslColor(20, 50, 50)
 var color = hslColor(20, 50, 50)
 hslColor (bordr70, -0, 70)
 "hsl(70, 70%, 365)"
+
+var shape = document.queryselector(".shape")
+
+var width = randomNumber(150, 700);
+var height = randomNumber(150, 1000);
+
+shape.sytle.width = width + "px";
+shape.style.height= height + "px";
