@@ -56,7 +56,24 @@ TO DO:
 5. Randomize border color
 
 */
+var shape = document.queryselector(".shape")
 
+var width = randomNumber(150, 700);
+var height = randomNumber(150, 1000);
+
+shape.style.width = width + "px";
+shape.style.height= height + "px";
+
+var h1 = randomNumber(160,180);
+var h2 = randomNumber(180,200);
+var h3 = randomNumber(200,220);
+
+shape.style.background = hslColor(h1, 50, 50);
+shape.style.borderColor = hslColor(h2, 50, 50);
+
+var container = document.queryselector(".content");
+
+container.style.background = hslColor(h,50,10);
 
 
 
