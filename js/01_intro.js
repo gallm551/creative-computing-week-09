@@ -15,4 +15,4 @@ document.querySelector(".content")
 
 var container = document.querySelector(".")
 
-document, querey selector 
+document, querySelector 

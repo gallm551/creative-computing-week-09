@@ -43,8 +43,6 @@ function hslColor(h, s, l) {
   return color;
 }
 
-
-
 /* 
 
 TO DO:
@@ -56,6 +54,7 @@ TO DO:
 5. Randomize border color
 
 */
+
 var shape = document.queryselector(".shape")
 
 var width = randomNumber(150, 700);
